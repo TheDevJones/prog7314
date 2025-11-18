@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Background Color -->
+    <color name="background_deep_dark_blue">#1A1A2E</color> <!-- Main background of the app interface -->
+
+    <!-- Text and Accent Color (Purple) -->
+    <color name="accent_vibrant_purple">#A084E8</color> <!-- Titles, buttons, and progress bar fills -->
+
+    <!-- Secondary Text Color (White) -->
+    <color name="text_pure_white">#FFFFFF</color> <!-- Subtitles, numbers, and labels -->
+
+    <!-- Progress Bar Background -->
+    <color name="progress_background_dark_blue">#2E2E4D</color> <!-- Unfilled portion of progress bars -->
+
+    <!-- Icon and Button Outline Color -->
+    <color name="outline_medium_purple_blue">#4A4A6A</color> <!-- Outlines for icons and buttons -->
+
+    <!-- Highlight Color (Green) -->
+    <color name="highlight_bright_green">#00FF00</color> <!-- Upward arrow indicator (e.g., next to "85% Weekly Progress") -->
+</resources>

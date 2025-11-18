@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "565492519071",
+    "project_id": "vitality-vault-280b6",
+    "storage_bucket": "vitality-vault-280b6.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:565492519071:android:1614540371b72c5799d2aa",
+        "android_client_info": {
+          "package_name": "com.st10028374.vitality_vault"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "565492519071-73ol48fd81b5fcmot34ukd45oli1vpf0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.st10028374.vitality_vault",
+            "certificate_hash": "38155945e31041682cf5cae8a8aaa9a480db480d"
+          }
+        },
+        {
+          "client_id": "565492519071-61bcaa62g9v95g3544ntsipau9po1ubu.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-8Z--oDUYDvKimw8dlBTDCEPt_9jkPAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "565492519071-61bcaa62g9v95g3544ntsipau9po1ubu.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

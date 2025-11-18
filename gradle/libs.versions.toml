@@ -1,0 +1,148 @@
+# =========================
+# VERSION CATALOG
+# Catalog B preferred
+# =========================
+
+[versions]
+agp = "8.9.1"
+kotlin = "2.0.0"
+
+coreKtx = "1.15.0"
+appcompat = "1.7.0"
+material = "1.12.0"
+activity = "1.9.3"
+constraintlayout = "2.2.0"
+
+junit = "4.13.2"
+junitVersion = "1.2.1"
+espressoCore = "3.6.1"
+
+# Credentials & Google Identity
+credentials = "1.5.0-beta01"
+googleid = "1.1.1"
+
+# Firebase
+firebaseBom = "33.6.0"
+firebaseMessagingKtx = "24.1.0"
+
+# Coroutines & Lifecycle
+coroutines = "1.7.3"
+lifecycle = "2.8.7"
+
+# Location
+playServicesLocation = "21.3.0"
+
+# -------- MERGED FROM CATALOG A --------
+
+# Compose
+activityCompose = "1.11.0"
+composeBom = "2025.11.00"
+
+# Spotify
+auth = "3.0.0"
+authVersion = "1.2.5"
+spotifyAppRemote = "0.7.0"
+spotifyAppRemoteRelease = "0.7.1"
+spotifyAppRemoteReleaseVersion = "0.7.2"
+
+# Navigation
+navigationFragmentKtx = "2.9.6"
+
+# Room
+roomRuntime = "2.8.3"
+roomCommonJvm = "2.8.3"
+roomKtx = "2.8.3"
+
+# Other AndroidX
+gridlayout = "1.1.0"
+swiperefreshlayout = "1.1.0"
+
+playServicesAuth = "21.4.0"
+firebaseAuthKtx = "24.0.1"
+
+lifecycleRuntimeKtx = "2.9.4"      # newer, but Catalog B lifecycle kept as primary
+kotlinxCoroutinesAndroid = "1.10.2" # newer, but B preferred
+
+workRuntimeKtx = "2.11.0"
+
+
+# =========================
+# LIBRARIES
+# =========================
+
+[libraries]
+
+# Core Android
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+androidx-gridlayout = { module = "androidx.gridlayout:gridlayout", version.ref = "gridlayout" }
+androidx-swiperefreshlayout = { group = "androidx.swiperefreshlayout", name = "swiperefreshlayout", version.ref = "swiperefreshlayout" }
+
+# Testing
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+
+# Compose
+androidx-activity-compose = { module = "androidx.activity:activity-compose", version.ref = "activityCompose" }
+androidx-compose-bom = { module = "androidx.compose:compose-bom", version.ref = "composeBom" }
+androidx-compose-ui = { module = "androidx.compose.ui:ui" }
+androidx-compose-ui-graphics = { module = "androidx.compose.ui:ui-graphics" }
+androidx-compose-ui-tooling-preview = { module = "androidx.compose.ui:ui-tooling-preview" }
+androidx-compose-material3 = { module = "androidx.compose.material3:material3" }
+androidx-compose-material-icons-core = { module = "androidx.compose.material:material-icons-core" }
+androidx-compose-material-icons-extended = { module = "androidx.compose.material:material-icons-extended" }
+
+# Lifecycle & Coroutines
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycle" }
+kotlinx-coroutines-android = { group = "org.jetbrains.kotlinx", name = "kotlinx-coroutines-android", version.ref = "coroutines" }
+
+# Credentials & Identity
+androidx-credentials = { group = "androidx.credentials", name = "credentials", version.ref = "credentials" }
+androidx-credentials-play-services-auth = { group = "androidx.credentials", name = "credentials-play-services-auth", version.ref = "credentials" }
+googleid = { group = "com.google.android.libraries.identity.googleid", name = "googleid", version.ref = "googleid" }
+
+# Navigation
+androidx-navigation-fragment-ktx = { module = "androidx.navigation:navigation-fragment-ktx", version.ref = "navigationFragmentKtx" }
+androidx-navigation-ui-ktx = { module = "androidx.navigation:navigation-ui-ktx", version.ref = "navigationFragmentKtx" }
+
+# Room
+androidx-room-runtime = { module = "androidx.room:room-runtime", version.ref = "roomRuntime" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomRuntime" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomRuntime" }
+androidx-room-common-jvm = { group = "androidx.room", name = "room-common-jvm", version.ref = "roomCommonJvm" }
+room-ktx = { group = "androidx.room", name = "room-ktx", version.ref = "roomKtx" }
+
+# WorkManager
+androidx-work-runtime-ktx = { module = "androidx.work:work-runtime-ktx", version.ref = "workRuntimeKtx" }
+
+# Firebase
+firebase-bom = { group = "com.google.firebase", name = "firebase-bom", version.ref = "firebaseBom" }
+firebase-auth = { module = "com.google.firebase:firebase-auth" }
+firebase-auth-ktx = { group = "com.google.firebase", name = "firebase-auth-ktx", version.ref = "firebaseAuthKtx" }
+firebase-firestore = { module = "com.google.firebase:firebase-firestore" }
+firebase-firestore-ktx = { module = "com.google.firebase:firebase-firestore-ktx" }
+firebase-messaging-ktx = { group = "com.google.firebase", name = "firebase-messaging-ktx", version.ref = "firebaseMessagingKtx" }
+
+# Google Play Services
+play-services-auth = { module = "com.google.android.gms:play-services-auth", version.ref = "playServicesAuth" }
+play-services-location = { group = "com.google.android.gms", name = "play-services-location", version.ref = "playServicesLocation" }
+
+# Spotify
+auth = { module = "com.spotify.android:auth", version.ref = "auth" }
+auth-v125 = { module = "com.spotify.android:auth", version.ref = "authVersion" }
+spotify-app-remote = { module = "com.spotify.android:spotify-app-remote", version.ref = "spotifyAppRemote" }
+spotify-app-remote-release = { module = "com.spotify.android:spotify-app-remote-release", version.ref = "spotifyAppRemoteRelease" }
+spotify-app-remote-release-v072 = { module = "com.spotify.android:spotify-app-remote-release", version.ref = "spotifyAppRemoteReleaseVersion" }
+
+
+# =========================
+# PLUGINS
+# =========================
+
+[plugins]
+android-application = { id = "com.android.application", version.ref = "agp" }
+kotlin-android = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }

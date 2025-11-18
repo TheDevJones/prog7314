@@ -1,0 +1,13 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <color android:color="#14181A"/> <!-- Card dark -->
+    </item>
+    <item>
+        <shape>
+            <gradient
+                android:startColor="#14181ACC"
+                android:endColor="#12141899"
+                android:angle="135"/>
+        </shape>
+    </item>
+</layer-list>

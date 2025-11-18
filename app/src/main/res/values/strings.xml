@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Vitality_Vault</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="spotify_client_id">e0dd676a77b04de2a5a4df5dacc4b66b</string>
+    <string name="spotify_redirect_uri">vitalityvault://callback</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="default_web_client_id">565492519071-61bcaa62g9v95g3544ntsipau9po1ubu.apps.googleusercontent.com</string>
+
+
+    <string name="mapbox_access_token">pk.eyJ1Ijoic3QxMDE2MTE0OSIsImEiOiJjbWc0ZXJleDAxYTh1Mm1zNjdkc2Q1YWlyIn0.ee2m2CKOZ2iKmAbvKyGi6w</string>
+</resources>
